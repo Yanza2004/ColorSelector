@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM</title>
+        <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="reducido.css">
+
+    </head>
+
+    <body>
+        <div class="container-lg vh-100 wh-100 d-flex flex-column  align-items-center p-5 ">
+            <label for="exampleColorInput" class="h5 mt-5">Color picker</label>
+            <input type="color" class="form-control w-25 height-control" id="exampleColorInput" value="#563d7c"
+                title="Choose your color">
+                <button type="button" class="btn btn-primary w-25 m-3" id="btn-color">Visualizar</button>
+                <h4 class="text-secondary mt-5" id="color-name">#563d7c</h4>
+                <div class="card w-25 h-25 m-2" id="pintar-color" style="background-color:#563d7c ;" >
+                  </div>
+        </div>
+
+
+
+
+        <!-- SCRIPT -->
+        <script src="app.js"></script>
+    </body>
+
+</html>
